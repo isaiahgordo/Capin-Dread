@@ -8,4 +8,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CapitalWordList.txt" />
+    <None Remove="NonPalinList.txt" />
+    <None Remove="PalinList.txt" />
+    <None Remove="PwordList.txt" />
+    <None Remove="StudentList.txt" />
+    <None Remove="WordList.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CapitalWordList.txt" />
+    <Resource Include="NonPalinList.txt" />
+    <Resource Include="PalinList.txt" />
+    <Resource Include="PwordList.txt" />
+    <Resource Include="StudentList.txt" />
+    <Resource Include="WordList.txt" />
+  </ItemGroup>
+
 </Project>
